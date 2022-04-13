@@ -1,0 +1,21 @@
+#to list all the file of the particular path
+#ls ~/piscine-go/piscine-go
+
+#to list all the file
+#ls -a ~/piscine-go/piscine-go
+
+#to list all the hidden file only ignore the . and ..
+#ls -A ~/piscine-go/piscine-go
+
+#to separate the result with comma
+#ls -m ~/piscine-go/piscine-go
+
+# to end directory with slash
+#ls -p ~/piscine-go/piscine-go
+
+#to list all the hidden file only ignore the . and ..
+ls -tmp | tr -d ' '
+
+
+
+
