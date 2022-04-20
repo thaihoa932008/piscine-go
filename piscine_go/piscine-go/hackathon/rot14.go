@@ -5,9 +5,7 @@
 // later count from m to a, a change to o, so 14 value if diff, so to change it, we add 14
 // last step, any other cases, don't change anything
 
-package main
-
-import "github.com/01-edu/z01"
+package piscine
 
 func Rot14(s string) string {
 	var newStr string
@@ -21,13 +19,4 @@ func Rot14(s string) string {
 		}
 	}
 	return newStr
-}
-
-func main() {
-	result := Rot14("Hello! How are You?")
-
-	for _, r := range result {
-		z01.PrintRune(r)
-	}
-	z01.PrintRune('\n')
 }
